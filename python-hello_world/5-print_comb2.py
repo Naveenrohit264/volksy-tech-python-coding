@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in range(100):
-        print('{}'% i  , end=', '.format('%02d'))
+        print('%0{}d' % i  , end=', '.format(2))
